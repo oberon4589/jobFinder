@@ -1,0 +1,35 @@
+{
+  "name": "jobfinder",
+  "version": "1.0.0",
+  "description": "Portal para pessoas encontrarem vagas de emprego ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oberon4589/jobFinder.git"
+  },
+  "keywords": [
+    "jobfinder",
+    "dev",
+    "dev",
+    "tools"
+  ],
+  "author": "Oberon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oberon4589/jobFinder/issues"
+  },
+  "homepage": "https://github.com/oberon4589/jobFinder#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "express-handlebars": "^7.1.2",
+    "sequelize": "^6.37.3",
+    "sqlite3": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
