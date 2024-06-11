@@ -1,9 +1,10 @@
 const express = require("express"); //importa o express para podermos montar nossa api
 app = express();
-const db = require("./database/databsase"); //importa o banco de dados pra aplicação
+const database = require("./database/database"); //importa o banco de dados pra aplicação
+const port = 3000;
 
-app.listen(8080, () => {
-  console.log("Servidor rodando na porta 8080");
+app.listen(port, () => {
+  console.log(`Servidor rodando na porta ${port}`);
 });
 
 //conexão com o banco
