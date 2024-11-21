@@ -1,0 +1,20 @@
+{
+  "name": "jobfinder",
+  "version": "1.0.0",
+  "description": "Projeto web para facilitar as buscas por emprego na internet",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Oberon",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.1",
+    "express-handlebars": "^8.0.1",
+    "handlebars": "^4.7.8",
+    "jobfinder": "file:",
+    "sequelize": "^6.37.5",
+    "sqlite3": "^5.1.7"
+  }
+}
