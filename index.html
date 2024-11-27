@@ -40,6 +40,66 @@
       </nav>
     </header>
 
+    <div id="top-container" class="container-fluid">
+      <h1 id="main-title" class="text-center">
+        Garanta sua vaga no mercado de trabalho
+      </h1>
+      <p class="main-subtitle" class="text-center">
+        Encontre as melhores vagas no empre que tanto almeja, voltado pra
+        programadores que sonham em trabalhar home office
+      </p>
+      <form id="search-form" class="form-inline" action="">
+        <div class="form-group col-md-10">
+          <input
+            type="text"
+            class="form-control"
+            id="job"
+            placeholder="Qual emprega você está procurando ?" />
+        </div>
+
+        <div class="col-md-2">
+          <button type="submit" class="btn btn-primary">Procurar</button>
+        </div>
+      </form>
+    </div>
+
+    <!-- Conteúdo principal se envolve numa classe main -->
+    <main>
+      <div id="jobs-container" class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2 id="job-list-title">Veja nossas vagas em destaque</h2>
+            <ul id="job-list" class="list-group">
+              <li class="list-group-item new-job">
+                <img src="public/img/company.svg" alt="company logo" />
+                <p>Empresa</p>
+                <h2>Título da vaga</h2>
+                <p>R$2000,00</p>
+                <span class="new-job-label">Nova</span>
+                <a class="btn btn-primary">Ver vaga</a>
+              </li>
+
+              <li class="list-group-item">
+                <img src="public/img/company.svg" alt="company logo" />
+                <p>Empresa</p>
+                <h2>Título da vaga</h2>
+                <p>R$2000,00</p>
+                <a class="btn btn-primary">Ver vaga</a>
+              </li>
+
+              <li class="list-group-item">
+                <img src="public/img/company.svg" alt="company logo" />
+                <p>Empresa</p>
+                <h2>Título da vaga</h2>
+                <p>R$2000,00</p>
+                <a class="btn btn-primary">Ver vaga</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </main>
+
     <script
       src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
