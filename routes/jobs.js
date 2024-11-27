@@ -1,9 +1,9 @@
 const express = require("express");
 const router = express.Router();
-const database = require("../database/connection");
+const Job = require("../models/Job");
 
 router.get("/test", (req, res) => {
-  console.log("Deu certo!");
+  res.send("Deu Certo!");
 });
 
 //adiciona job via post

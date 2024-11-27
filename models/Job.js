@@ -1,8 +1,8 @@
 const Sequelize = require("sequelize");
-const database = require("../database/connection");
+const database = require("../database/connection.js");
 
 //Cria o model
-const Job = db.define("job", {
+const Job = database.define("job", {
   title: {
     type: Sequelize.STRING,
   },
